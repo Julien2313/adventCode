@@ -29,5 +29,5 @@ def p1():
 
     return ''.join(str(recipe) for recipe in recipes[int(dayInput):int(dayInput)+10])
 
-dayFile = open("day14/input.txt", "r")
+dayFile = open("src/aoc2018/day14/input.txt", "r")
 dayInput = dayFile.read()

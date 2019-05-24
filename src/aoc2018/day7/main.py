@@ -73,5 +73,5 @@ def p1():
                 break
     return toPrint
 
-dayFile = open("day7/input.txt", "r")
+dayFile = open("src/aoc2018/day7/input.txt", "r")
 dayInput = dayFile.read().strip()

@@ -36,5 +36,5 @@ def p1():
         print ''.join(line)
     return minTemps
 
-dayFile = open("day10/input.txt", "r")
+dayFile = open("src/aoc2018/day10/input.txt", "r")
 dayInput = dayFile.read().strip()

@@ -104,5 +104,5 @@ def p1():
     print int(guardMax), maxMinute
     return int(guardMax) * maxMinute
 
-dayFile = open("day4/input.txt", "r")
+dayFile = open("src/aoc2018/day4/input.txt", "r")
 dayInput = dayFile.read().strip()

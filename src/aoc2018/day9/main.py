@@ -45,5 +45,5 @@ def p1():
 
     return max(scores)
 
-dayFile = open("day9/input.txt", "r")
+dayFile = open("src/aoc2018/day9/input.txt", "r")
 dayInput = dayFile.read().strip()

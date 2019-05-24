@@ -78,5 +78,5 @@ def p1():
     
 
 
-dayFile = open("day19/input.txt", "r")
+dayFile = open("src/aoc2018/day19/input.txt", "r")
 dayInput = dayFile.read().strip()

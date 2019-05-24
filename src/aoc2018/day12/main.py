@@ -74,5 +74,5 @@ def p1():
                 states[gen][match+2] = True
     return computeScore(margeLeft, states[-1])
 
-dayFile = open("day12/input.txt", "r")
+dayFile = open("src/aoc2018/day12/input.txt", "r")
 dayInput = dayFile.read().strip()

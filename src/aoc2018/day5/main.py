@@ -44,5 +44,5 @@ def p1():
         if lenBefore == len(data):
             return len(data)
 
-dayFile = open("day5/input.txt", "r")
+dayFile = open("src/aoc2018/day5/input.txt", "r")
 dayInput = dayFile.read().strip()

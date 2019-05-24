@@ -28,5 +28,5 @@ def p1():
             cpt3+=1
     return cpt2*cpt3
     
-dayFile = open("day2/input.txt", "r")
+dayFile = open("src/aoc2018/day2/input.txt", "r")
 dayInput = dayFile.read().strip()

@@ -133,5 +133,5 @@ def p1():
                     return str(int(cart[0].imag))+","+str(int(cart[0].real))
         carts.sort(key=lambda x:x[0].imag*1000+x[0].real)
 
-dayFile = open("day13/input.txt", "r")
+dayFile = open("src/aoc2018/day13/input.txt", "r")
 dayInput = dayFile.read()
